@@ -13,7 +13,7 @@ func makeFancyString(s string) string {
 
 	var result []byte
 	count := 1
-	result = append(result, s[0]) // обязательно добавляем первый символ
+	result = append(result, s[0])
 
 	for i := 1; i < len(s); i++ {
 		if s[i] == s[i-1] {
